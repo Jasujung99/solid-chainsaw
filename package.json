@@ -1,0 +1,28 @@
+{
+  "name": "solid-chainsaw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "typeorm": "^0.3.17",
+    "reflect-metadata": "^0.1.13",
+    "pg": "^8.11.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1",
+    "ts-jest": "^29.1.1",
+    "jest": "^29.5.0",
+    "@types/jest": "^29.5.0",
+    "pg-mem": "^2.1.2",
+    "@types/uuid": "^9.0.0"
+  }
+}
