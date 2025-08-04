@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+spacy
+nltk
+opencv-python
+open_clip_torch
+librosa
+torch
