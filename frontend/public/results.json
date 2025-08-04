@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "model": "alpha",
+      "timestamp": "2024-01-01",
+      "thumbnail": "https://via.placeholder.com/150?text=alpha1",
+      "original": "https://example.com/alpha1",
+      "analysis": "Accuracy 0.90",
+      "score": 90
+    },
+    {
+      "id": 2,
+      "model": "alpha",
+      "timestamp": "2024-01-02",
+      "thumbnail": "https://via.placeholder.com/150?text=alpha2",
+      "original": "https://example.com/alpha2",
+      "analysis": "Accuracy 0.92",
+      "score": 92
+    },
+    {
+      "id": 3,
+      "model": "beta",
+      "timestamp": "2024-01-01",
+      "thumbnail": "https://via.placeholder.com/150?text=beta1",
+      "original": "https://example.com/beta1",
+      "analysis": "Accuracy 0.85",
+      "score": 85
+    },
+    {
+      "id": 4,
+      "model": "beta",
+      "timestamp": "2024-01-03",
+      "thumbnail": "https://via.placeholder.com/150?text=beta2",
+      "original": "https://example.com/beta2",
+      "analysis": "Accuracy 0.88",
+      "score": 88
+    }
+  ]
+}
