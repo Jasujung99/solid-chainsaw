@@ -1,0 +1,16 @@
+.compare {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.dropzone {
+  flex: 1;
+  min-height: 200px;
+  border: 2px dashed #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropzone img {
+  max-width: 100%;
+}
