@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>$title</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>$title</h1>
+  <p>Generated at $generated_at</p>
+
+  <h2>Summary Statistics</h2>
+  <ul>
+  $summary_items
+  </ul>
+
+  <h2>Chart</h2>
+  <canvas id="chart"></canvas>
+  <script>
+    const ctx = document.getElementById('chart').getContext('2d');
+    new Chart(ctx, {
+      type: '$chart_type',
+      data: {
+        labels: $labels,
+        datasets: [{
+          label: '$dataset_label',
+          data: $data,
+          backgroundColor: 'rgba(54, 162, 235, 0.5)',
+          borderColor: 'rgba(54, 162, 235, 1)',
+          borderWidth: 1
+        }]
+      }
+    });
+  </script>
+</body>
+</html>
