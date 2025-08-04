@@ -1,0 +1,8 @@
+{
+  "name": "solid-chainsaw",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "node models/registry.test.js"
+  }
+}
